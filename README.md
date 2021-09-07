@@ -1,1 +1,1 @@
-My SPA Portfolio created with react 
+My SPA Portfolio created with react, Sass,  
