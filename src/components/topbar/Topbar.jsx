@@ -4,7 +4,7 @@ import PersonIcon from '@material-ui/icons/Person';
 
 export default function Topbar({menuOpen, setMenuOpen}) {
     return (
-        <div className="topbar" >
+        <div className={"topbar "  + (menuOpen && "active")} >
            <div className="wrapper">
                <div className="left">
                    <a href="#intro" className="logo">Majd.</a>
