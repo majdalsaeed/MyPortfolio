@@ -7,7 +7,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
         <div className={"topbar "  + (menuOpen && "active")} >
            <div className="wrapper">
                <div className="left">
-                   <a href="#intro" className="logo">Cosmos.</a>
+                   <a href="#intro" className="logo">Alsaeed.</a>
                    <div className="itemContainer">
                         <PersonIcon className="icon" />
                         <span>+49 017 4914 0007</span>

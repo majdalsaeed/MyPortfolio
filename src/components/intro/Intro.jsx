@@ -21,9 +21,9 @@ export default function Intro() {
           <h2>Hi There, I'm</h2>
           <h1>Majd Alsaeed</h1>
           <h3>
-            Full Stack <span ref={textRef}></span>
+            Front-End <span ref={textRef}></span>
           </h3>
-          <a href="#portfolio">
+          <a href="#works">
             <ExpandMoreIcon className="icon" />
           </a>
         </div>

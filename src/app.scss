@@ -1,6 +1,11 @@
 .app{
     height: 100vh;
     .sections{
+        > *{
+            width: 100vw;
+            height: calc(100vh - 70px);
+            scroll-snap-align: start ;
+        }
         scroll-snap-type: y mandatory;
         scrollbar-width: none; //for chrome
         &::-webkit-scrollbar{
@@ -16,8 +21,3 @@
     }
     
 };
-.sections *{
-    width: 100vw;
-    height: calc(100vh - 70px);
-    scroll-snap-align: start ;
-}
