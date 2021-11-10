@@ -1,8 +1,27 @@
 .works{
-    background-color: crimson;
+    background-color: rgb(26, 31, 41);
     display: flex;
     align-items: center;
-    justify-content: center;
+    .container{
+        display: flex;
+        flex-flow: row wrap;
+    
+    .item{
+        text-align: center;
+        width: 30rem;
+        margin-left: 10rem;
+        margin-top: 2rem;
+        img{
+            width: 25rem;
 
-   
+        }
+        h3{
+            color: white;
+            font-size: 3rem;
+        }
+    }
+
+
+   }
+
 }
